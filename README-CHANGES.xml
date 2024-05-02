@@ -28,6 +28,6 @@
     </c:release>
   </c:releases>
   <c:ticket-systems>
-    <c:ticket-system default="true" id="com.github.io7m.timehack6435126" url="http://github.com/io7m/timehack6435126/issues/"/>
+    <c:ticket-system default="true" id="com.github.io7m.timehack6435126" url="http://www.github.com/io7m-com/timehack6435126/issues/"/>
   </c:ticket-systems>
 </c:changelog>
