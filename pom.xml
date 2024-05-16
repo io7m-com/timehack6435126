@@ -8,12 +8,12 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>7.0.0</version>
+    <version>8.2.0</version>
   </parent>
 
   <groupId>com.io7m.timehack6435126</groupId>
   <artifactId>com.io7m.timehack6435126</artifactId>
-  <version>3.0.0</version>
+  <version>3.0.1</version>
 
   <packaging>pom</packaging>
   <name>com.io7m.timehack6435126</name>
@@ -22,24 +22,25 @@
 
   <modules>
     <module>com.io7m.timehack6435126.core</module>
-    <module>com.io7m.timehack6435126.documentation</module>
   </modules>
 
   <properties>
-    <io7m.api.previousVersion>2.0.0</io7m.api.previousVersion>
+    <!-- Configuration. -->
+    <io7m.api.previousVersion>3.0.0</io7m.api.previousVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
   </properties>
 
   <licenses>
     <license>
-      <name>ISC License</name>
+      <name>ISC</name>
       <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/timehack6435126</url>
-    <connection>scm:git:https://github.com/io7m/timehack6435126</connection>
-    <developerConnection>scm:git:https://github.com/io7m/timehack6435126</developerConnection>
+    <url>https://www.github.com/io7m-com/timehack6435126</url>
+    <connection>scm:git:https://www.github.com/io7m-com/timehack6435126</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/timehack6435126</developerConnection>
   </scm>
 
   <developers>
@@ -52,7 +53,7 @@
   </developers>
 
   <issueManagement>
-    <url>http://github.com/io7m/timehack6435126/issues</url>
+    <url>http://www.github.com/io7m-com/timehack6435126/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -64,13 +65,17 @@
     </site>
     <repository>
       <id>sonatype-nexus-staging</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/timehack6435126/actions</url>
+    <url>https://www.github.com/io7m-com/timehack6435126/actions</url>
   </ciManagement>
 
   <prerequisites>
@@ -79,22 +84,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>com.io7m.junreachable</groupId>
-        <artifactId>com.io7m.junreachable.core</artifactId>
-        <version>4.0.0</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>2.0.0-alpha7</version>
-      </dependency>
-      <dependency>
-        <groupId>ch.qos.logback</groupId>
-        <artifactId>logback-classic</artifactId>
-        <version>1.3.0-alpha14</version>
-      </dependency>
       <dependency>
         <groupId>org.osgi</groupId>
         <artifactId>org.osgi.annotation.versioning</artifactId>
@@ -117,13 +106,6 @@
   <build>
     <pluginManagement>
       <plugins>
-        <!-- jstructural plugin for generating documentation. -->
-        <plugin>
-          <groupId>com.io7m.jstructural</groupId>
-          <artifactId>io7m-jstructural-maven-plugin</artifactId>
-          <version>5.0.0</version>
-        </plugin>
-
         <!-- Spot bugs -->
         <plugin>
           <groupId>com.github.spotbugs</groupId>

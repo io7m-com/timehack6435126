@@ -21,13 +21,20 @@
         <c:change compatible="false" date="2017-11-15T00:00:00+00:00" summary="All modules are now Java 9 modules. JDK 9 is now required."/>
       </c:changes>
     </c:release>
-    <c:release date="2022-04-10T09:59:55+00:00" is-open="false" ticket-system="com.github.io7m.timehack6435126" version="3.0.0">
+    <c:release date="2022-04-10T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.timehack6435126" version="3.0.0">
       <c:changes>
         <c:change compatible="false" date="2022-04-10T00:00:00+00:00" summary="Require JDK 17"/>
       </c:changes>
     </c:release>
+    <c:release date="2024-05-16T22:04:27+00:00" is-open="false" ticket-system="com.github.io7m.timehack6435126" version="3.0.1">
+      <c:changes>
+        <c:change date="2024-04-19T00:00:00+00:00" summary="Update org.slf4j:slf4j-api:2.0.10 → 2.0.13."/>
+        <c:change date="2024-04-19T00:00:00+00:00" summary="Update ch.qos.logback:logback-classic:1.4.14 → 1.5.6."/>
+        <c:change date="2024-05-16T00:00:00+00:00" summary="Move to new organization."/>
+      </c:changes>
+    </c:release>
   </c:releases>
   <c:ticket-systems>
-    <c:ticket-system default="true" id="com.github.io7m.timehack6435126" url="http://github.com/io7m/timehack6435126/issues/"/>
+    <c:ticket-system default="true" id="com.github.io7m.timehack6435126" url="http://www.github.com/io7m-com/timehack6435126/issues/"/>
   </c:ticket-systems>
 </c:changelog>
