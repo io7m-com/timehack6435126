@@ -1,7 +1,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <p class="shields">
     <a href="https://www.github.com/io7m-com/timehack6435126/actions?query=workflow%3Amain.linux.temurin.lts">
-      <img src="https://img.shields.io/github/actions/workflow/status/io7m/timehack6435126/main.linux.temurin.lts.yml"
+      <img src="https://img.shields.io/github/actions/workflow/status/io7m-com/timehack6435126/main.linux.temurin.lts.yml"
            alt="Build status"/>
     </a>
 
@@ -9,8 +9,8 @@
          <img src="https://img.shields.io/maven-central/v/com.io7m.timehack6435126/com.io7m.timehack6435126.svg?style=flat-square"
               alt="Maven Central"/>
       </a>
-      <a href="https://codecov.io/gh/io7m/timehack6435126">
-         <img src="https://img.shields.io/codecov/c/github/io7m/timehack6435126.svg?style=flat-square"
+      <a href="https://codecov.io/gh/io7m-com/timehack6435126">
+         <img src="https://img.shields.io/codecov/c/github/io7m-com/timehack6435126.svg?style=flat-square"
               alt="Codecov"/>
       </a>
   </p>
