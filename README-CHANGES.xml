@@ -21,9 +21,14 @@
         <c:change compatible="false" date="2017-11-15T00:00:00+00:00" summary="All modules are now Java 9 modules. JDK 9 is now required."/>
       </c:changes>
     </c:release>
-    <c:release date="2022-04-10T09:59:55+00:00" is-open="false" ticket-system="com.github.io7m.timehack6435126" version="3.0.0">
+    <c:release date="2022-04-10T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.timehack6435126" version="3.0.0">
       <c:changes>
         <c:change compatible="false" date="2022-04-10T00:00:00+00:00" summary="Require JDK 17"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2024-05-16T21:58:15+00:00" is-open="true" ticket-system="com.github.io7m.timehack6435126" version="3.0.1">
+      <c:changes>
+        <c:change date="2024-05-16T21:58:15+00:00" summary="Move to new organization."/>
       </c:changes>
     </c:release>
   </c:releases>
