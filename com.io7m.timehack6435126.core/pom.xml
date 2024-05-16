@@ -9,7 +9,7 @@
   <parent>
     <groupId>com.io7m.timehack6435126</groupId>
     <artifactId>com.io7m.timehack6435126</artifactId>
-    <version>3.0.1-SNAPSHOT</version>
+    <version>3.0.1</version>
   </parent>
   <artifactId>com.io7m.timehack6435126.core</artifactId>
 
